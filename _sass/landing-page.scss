@@ -1,7 +1,7 @@
 // ==========================
 // Variables / Brand Colors
 // ==========================
-$brand-cream: #F5E6C4;
+$brand-cream: #FAF7F3;
 $brand-yellow: #FFF9D6;
 $brand-pink: #F9D5D3;
 $brand-blue: #D6E7F5;
@@ -10,8 +10,8 @@ $brand-lavender-dark: #6B5B95;
 $brand-outline: #A492C9;
 $body-text: #333333;
 $muted: #777777;
-$middle-gradient-color: $brand-blue; // used in hero gradient
-$secondary-brand-color: $brand-lilac;
+$middle-gradient-color: $brand-cream; // used in hero gradient
+$secondary-brand-color: $brand-yellow;
 
 // ==========================
 // Global Typography
@@ -24,6 +24,22 @@ body, button, input, textarea, select {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dawning of a New Day', cursive;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4, h5, h6 {
+  font-size: 1.5rem;
 }
 
 // Decorative sign-off text
