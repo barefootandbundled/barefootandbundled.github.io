@@ -43,7 +43,7 @@
 }
 
 
-@media #{$desktop} {
+/* @media #{$desktop} {
 	.flex {
 		@include flexbox;
 		align-items: center;
@@ -59,4 +59,4 @@
 	.content section:nth-child(even) .flex {
 		flex-direction: row-reverse;
 	}
-}
+} */
