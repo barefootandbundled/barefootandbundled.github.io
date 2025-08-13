@@ -27,6 +27,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Dawning of a New Day', cursive;
 }
 
+.decorative {
+    font-family: 'Dawning of a New Day', cursive; /* matches headings */
+    font-size: 2rem; /* match h2’s visual size */
+    font-weight: normal;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    text-align: center; /* optional, for a centered sign-off */
+}
+
 
 /* Links */
 a {
@@ -67,6 +76,34 @@ a:hover {
   background: linear-gradient(180deg, rgba(230,217,240,0.6), rgba(255,255,255,0.6));
   padding: 1.25rem;
   border-radius: 12px;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center; /* vertically center content */
+  justify-content: space-between; /* space between text and image */
+  gap: 2rem; /* space between columns */
+}
+
+.hero .text-container {
+  flex: 1;
+}
+
+.hero .image-container {
+  flex: 1.2; /* slightly bigger than text */
+}
+
+.hero .image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* optional soft corners */
+}
+
+@media (max-width: 768px) {
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 /* Footer / metadata */
