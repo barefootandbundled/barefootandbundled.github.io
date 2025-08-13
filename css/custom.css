@@ -1,8 +1,5 @@
-/* assets/css/custom.css
-   Barefoot & Bundled: brand variables + quick styles
-*/
-
-:root{
+/* Brand colors and variables */
+:root {
   --brand-cream: #F5E6C4;
   --brand-yellow: #FFF9D6;
   --brand-pink: #F9D5D3;
@@ -15,27 +12,26 @@
   --muted: #777777;
 }
 
-/* Use Inter as main UI font (head already loads it) */
+/* Base typography */
 body, button, input, textarea, select {
   font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: var(--body-text);
-background-color: #FAF7F3; /* soft cream background */
+  background-color: #FAF7F3; /* soft cream background */
 }
 
 /* Apply "Dawning of a New Day" to all headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Dawning of a New Day', cursive;
+  font-family: 'Dawning of a New Day', cursive;
 }
 
 .decorative {
-    font-family: 'Dawning of a New Day', cursive; /* matches headings */
-    font-size: 2rem; /* match h2’s visual size */
-    font-weight: normal;
-    margin-top: 1.5em;
-    margin-bottom: 0;
-    text-align: center; /* optional, for a centered sign-off */
+  font-family: 'Dawning of a New Day', cursive; /* matches headings */
+  font-size: 2rem; /* match h2’s visual size */
+  font-weight: normal;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-align: center; /* optional, for a centered sign-off */
 }
-
 
 /* Links */
 a {
@@ -47,7 +43,7 @@ a:hover {
   color: var(--brand-outline);
 }
 
-/* Soft site accents (buttons, badges) */
+/* Buttons and badges */
 .button, .btn, .wp-block-button__link, .site-nav a {
   border-radius: 28px;
   padding: 0.5rem 1.15rem;
@@ -55,89 +51,8 @@ a:hover {
   transition: all .25s ease;
 }
 
-/* Outline button style */
+/* Outline buttons */
 .wp-block-button__link,
 .button--outline {
   background: transparent !important;
-  color: var(--brand-lavender-dark) !important;
-  border: 2px solid var(--brand-lilac);
-}
-
-/* Hover effect for outline */
-.wp-block-button__link:hover,
-.button--outline:hover {
-  color: var(--brand-lavender-dark);
-  border-color: var(--brand-lavender-dark);
-  background-color: rgba(107,91,149,0.06); /* subtle lavender tint */
-}
-
-/* Small utility: subtle section background */
-.section-muted {
-  background: linear-gradient(180deg, rgba(230,217,240,0.6), rgba(255,255,255,0.6));
-  padding: 1.25rem;
-  border-radius: 12px;
-}
-
-/* Hero Section */
-.hero {
-  color: #2B2B2B;
-  text-align: left; /* default desktop alignment */
-  background: linear-gradient(to bottom, var(--brand-blue) 0%, var(--brand-lavender-dark) 100%);
-  padding: 50px 0;
-}
-
-.hero p {
-  color: #2B2B2B;
-}
-
-/* Container flex layout */
-.hero .container {
-  display: flex;
-  align-items: center;      /* vertically center text and image */
-  justify-content: space-between;
-  gap: 2rem;               /* spacing between columns */
-}
-
-/* Text column */
-.hero .text-container {
-  flex: 1;
-  padding-right: 1rem;     /* spacing between text and image */
-}
-
-/* Image column */
-.hero .image-container {
-  flex: 1.2;               /* slightly bigger than text */
-  max-width: 600px;        /* prevents image from getting huge */
-}
-
-.hero .image-container img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;     /* optional soft corners */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .hero .container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero .image-container {
-    max-width: 90%;         /* scales down nicely on mobile */
-    margin-top: 1.5rem;     /* spacing between text and image */
-  }
-
-  .hero .text-container {
-    padding-right: 0;
-  }
-}
-
-/* Footer / metadata */
-.site-footer, .post-meta {
-  color: var(--muted);
-  font-size: 0.95rem;
-}
+  color: var(--bran
