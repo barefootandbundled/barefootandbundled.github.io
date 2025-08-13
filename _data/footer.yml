@@ -1,4 +1,4 @@
-- links:
+b- links:
   - name: Blog
     link: /blog/
   - name: About
@@ -10,7 +10,7 @@
     social_icon: Pinterest
   - name: Benable
     link: https://benable.com/barefootandbundled/
-    social_icon: Twitter
+    social_icon: Benable
     new_window: true
   - name: Shop my Links
     link: https://linktr.ee/barefootandbundled
