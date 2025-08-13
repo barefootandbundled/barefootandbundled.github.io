@@ -6,7 +6,7 @@
   link: /about/
   new_window: false
   highlight: false
-- name: Shop
-  link: /shop/
-  new_window: false
+- name: Pinterest
+  link: https://www.pinterest.com/barefootandbundled/
+  new_window: true
   highlight: false
