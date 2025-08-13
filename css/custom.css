@@ -78,31 +78,61 @@ a:hover {
   border-radius: 12px;
 }
 
+/* Hero Section */
+.hero {
+  color: #2B2B2B;
+  text-align: left; /* default desktop alignment */
+  background: linear-gradient(to bottom, var(--brand-blue) 0%, var(--brand-lavender-dark) 100%);
+  padding: 50px 0;
+}
+
+.hero p {
+  color: #2B2B2B;
+}
+
+/* Container flex layout */
 .hero .container {
   display: flex;
-  align-items: center; /* vertically center content */
-  justify-content: space-between; /* space between text and image */
-  gap: 2rem; /* space between columns */
+  align-items: center;      /* vertically center text and image */
+  justify-content: space-between;
+  gap: 2rem;               /* spacing between columns */
 }
 
+/* Text column */
 .hero .text-container {
   flex: 1;
+  padding-right: 1rem;     /* spacing between text and image */
 }
 
+/* Image column */
 .hero .image-container {
-  flex: 1.2; /* slightly bigger than text */
+  flex: 1.2;               /* slightly bigger than text */
+  max-width: 600px;        /* prevents image from getting huge */
 }
 
 .hero .image-container img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px; /* optional soft corners */
+  border-radius: 10px;     /* optional soft corners */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Mobile responsiveness */
 @media (max-width: 768px) {
   .hero .container {
     flex-direction: column;
     text-align: center;
+  }
+
+  .hero .image-container {
+    max-width: 90%;         /* scales down nicely on mobile */
+    margin-top: 1.5rem;     /* spacing between text and image */
+  }
+
+  .hero .text-container {
+    padding-right: 0;
   }
 }
 
