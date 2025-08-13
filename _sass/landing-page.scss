@@ -64,6 +64,16 @@ h4, h5, h6 {
 }
 
 // ==========================
+// Nav & Footer Links
+// ==========================
+.site-nav a,
+footer a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; // Medium weight for clarity
+  letter-spacing: 0.5px;
+}
+
+// ==========================
 // Links
 // ==========================
 a {
@@ -239,6 +249,7 @@ a:hover {
   background: #DDD;
   padding: 20px 0 0 0;
 }
+
 
 // ==========================
 // Footer / metadata
