@@ -84,3 +84,19 @@ nav {
 	}
 
 }
+
+.social-icon svg {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-icon svg path {
+  fill: #2B2B2B;
+  transition: fill 0.25s ease;
+}
+
+.social-icon:hover svg path {
+  fill: #ffffff;
+}
