@@ -66,10 +66,15 @@ h4, h5, h6 {
 // ==========================
 // Nav & Footer Links
 // ==========================
-.site-nav a,
+.site-nav a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500; // keep nav medium
+  letter-spacing: 0.5px;
+}
+
 footer a {
   font-family: 'Inter', sans-serif;
-  font-weight: 500; // Medium weight for clarity
+  font-weight: 400; // regular for footer
   letter-spacing: 0.5px;
 }
 
