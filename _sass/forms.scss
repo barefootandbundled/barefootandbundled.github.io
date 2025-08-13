@@ -1,67 +1,18 @@
 .button a, input[type=submit] {
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 30px;
-	background: $brand-color;
-	border-radius: 3px;
-	border: 1px solid rgba(255,255,255,.5);
-	transition: .2s ease-in-out;
+    color: #333; /* same dark text as your btn */
+    background-color: #E6D9F0; /* soft purple bg */
+    padding: 10px 30px; /* keep your preferred padding */
+    border-radius: 6px; /* a bit more rounded, adjust to your taste */
+    border: none; /* remove border for cleaner look like your btn */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* subtle shadow */
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    cursor: pointer;
 }
 
 .button a:hover, input[type=submit]:hover {
-	border: 1px solid #fff;
-	background: $secondary-brand-color;
-	cursor: pointer;
-}
-
-.button.alt a {
-	background: rgba(255,255,255,0.15);
-	border-radius: 3px;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 16px 50px;
-}
-
-.button.alt a:hover {
-	background: #fff;
-	color: $brand-color;
-}
-
-textarea, input, button, select { font-family: inherit; font-size: inherit; }
-
-input[type=submit] {
-	margin: 20px 0 0 0;
-}
-
-label, input, textarea {
-	display: block;
-	width: 100%;
-	box-sizing: border-box;
-}
-
-textarea {
-	resize: vertical;
-	height: 150px;
-}
-
-label {
-	margin: 20px 0 5px 0;
-}
-
-input, textarea {
-	padding: 10px;
-	font-size: 1em;
-}
-
-input, textarea {
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
-	-ms-transition: all 0.30s ease-in-out;
-	-o-transition: all 0.30s ease-in-out;
-	outline: none;
-	border: 1px solid #DDDDDD;
-}
-
-input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus {
-	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	border: 1px solid rgba(81, 203, 238, 1);
+    background-color: #faf7fc; /* your lighter hover bg */
+    color: #333; /* keep text color consistent */
+    border: none; /* no border on hover */
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25); /* slightly stronger shadow on hover */
 }
