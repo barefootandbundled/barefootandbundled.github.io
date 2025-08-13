@@ -4,7 +4,7 @@
   height="100"
   viewBox="0 0 400 120"
   role="img"
-  aria-label="Barefoot & Bundled"
+  aria-label="Barefoot &amp; Bundled"
 >
   <text
     x="50%"
@@ -15,6 +15,6 @@
     font-size="48"
     fill="#000000"
   >
-    Barefoot & Bundled
+    Barefoot &amp; Bundled
   </text>
 </svg>
