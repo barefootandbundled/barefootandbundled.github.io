@@ -83,7 +83,7 @@ exclude:
   - README.md
   - LICENSE
 
-  comments:
+comments:
   staticman:
     enabled: true
     endpoint: https://staticman.net/api/v3/entry/github/barefootandbundled/barefootandbundled.github.io/master/comments
