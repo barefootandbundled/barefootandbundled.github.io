@@ -27,13 +27,16 @@ body, button, input, textarea, select {
 strong, b { font-weight: 500; }
 em, i { font-style: italic; font-weight: 200; }
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Dawning of a New Day', cursive; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Dawning of a New Day', cursive;
+}
 
 h1 { font-size: 3.5rem; }
 h2 { font-size: 2.5rem; }
 h3 { font-size: 2rem; }
 h4, h5, h6 { font-size: 1.5rem; }
 
+// Decorative text
 .decorative {
   font-family: 'Dawning of a New Day', cursive;
   font-size: 2rem;
@@ -44,7 +47,7 @@ h4, h5, h6 { font-size: 1.5rem; }
 }
 
 // ==========================
-// Links & Nav
+// Nav Links
 // ==========================
 .site-nav a {
   font-family: 'Inter', sans-serif;
@@ -52,6 +55,9 @@ h4, h5, h6 { font-size: 1.5rem; }
   letter-spacing: 0.5px;
 }
 
+// ==========================
+// Links
+// ==========================
 a {
   color: $brand-lavender-dark;
   text-decoration: none;
@@ -69,25 +75,43 @@ a:hover { color: $brand-outline; }
   transition: all .25s ease;
 }
 
+.wp-block-button__link,
+.button--outline {
+  background: transparent !important;
+  color: $brand-lavender-dark !important;
+  border: 2px solid $brand-lilac;
+}
+
+.wp-block-button__link:hover,
+.button--outline:hover {
+  color: $brand-lavender-dark;
+  border-color: $brand-lavender-dark;
+  background-color: rgba(107,91,149,0.06);
+}
+
 // ==========================
-// Homepage Hero - 2 Column
+// Homepage Hero - 2 Column ONLY
 // ==========================
 .hero.home-hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  padding: 50px 0;
-  background-color: $brand-cream;
   color: #2B2B2B;
+  background-color: $brand-cream;
+  padding: 50px 0;
 
-  .text-container {
-    flex: 1;
-    padding-right: 1rem;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 
-  .image-container {
-    flex: 1.2;
+  .text-container { flex: 1; padding-right: 0; }
+  .image-container { 
+    flex: 1.2; 
     max-width: 600px;
 
     img {
@@ -99,51 +123,24 @@ a:hover { color: $brand-outline; }
     }
   }
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-
-    .text-container,
-    .image-container {
-      max-width: 90%;
-      padding: 0;
-      margin: 0 auto;
-    }
-  }
+  p { color: #2B2B2B; }
 }
 
 // ==========================
-// Content Sections - Alternating Layout
+// Content Sections - normal vertical flow
 // ==========================
 .content section {
-  display: flex;
-  align-items: center;
-  margin-bottom: 4rem;
+  margin: 50px 0;
 
   .text-container,
   .image-container {
-    flex: 1 1 50%;
-    padding: 1rem;
+    width: 100%;
   }
 
-  .image-container img {
+  img {
     max-width: 100%;
     height: auto;
-    display: block;
-  }
-
-  &:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column !important;
-
-    .text-container,
-    .image-container {
-      flex: 1 1 100%;
-      padding: 0.5rem;
-    }
+    border-radius: 10px;
   }
 }
 
@@ -186,28 +183,52 @@ a:hover { color: $brand-outline; }
 // Bottom CTA
 // ==========================
 .bottom-cta {
-  background: linear-gradient(to bottom, $brand-cream 0%, $middle-gradient-color 100%);
+  background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
   color: #2B2B2B;
   text-align: center;
   margin: 0;
   padding: 100px 0;
 
-  h2 {
-    margin-bottom: 50px;
-  }
+  h2 { margin-bottom: 50px; }
 }
 
 // ==========================
-// Screenshots / misc images
+// Screenshot / misc images
 // ==========================
 .screenshot {
   max-width: 100%;
   height: auto;
   display: block;
   border-radius: 2px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
   background: #DDD;
   padding: 20px 0 0 0;
+}
+
+// ==========================
+// Footer / metadata
+// ==========================
+.site-footer, .post-meta {
+  color: $muted;
+  font-size: 0.95rem;
+}
+
+// ==========================
+// Media Queries - HOME HERO ONLY
+// ==========================
+@media (max-width: 768px) {
+  .hero.home-hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero.home-hero .image-container {
+    max-width: 90%;
+    margin-top: 1.5rem;
+  }
+
+  .hero.home-hero .text-container {
+    padding-right: 0;
+  }
 }
