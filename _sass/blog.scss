@@ -124,60 +124,69 @@
 	}
 }
 
-/* --------------------------
-   Staticman Comment Section
--------------------------- */
+/* Staticman Comment Section */
 .comments {
-	background-color: #FAF7F3;
-	border: 1px solid #E6D9F0;
-	border-radius: 12px;
-	padding: 1.5rem;
-	margin-top: 2rem;
-	font-family: "Cormorant Garamond", serif;
+  background-color: #FAF7F3;
+  border: 1px solid #E6D9F0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-family: "Nunito", sans-serif; // change here
 }
 
 .comments h2 {
-	margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Nunito", sans-serif; // ensure header matches too
 }
 
 .comments form label {
-	display: block;
-	margin-top: 0.8rem;
-	font-weight: 600;
+  display: block;
+  margin-top: 0.8rem;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif; // labels now match
 }
 
 .comments form input,
 .comments form textarea {
-	width: 100%;
-	padding: 0.5rem;
-	margin-top: 0.3rem;
-	border: 1px solid #E6D9F0;
-	border-radius: 8px;
-	font-family: "Cormorant Garamond", serif;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #E6D9F0;
+  border-radius: 8px;
+  font-family: "Nunito", sans-serif; // inputs match
 }
 
 .comments form button {
-	margin-top: 0.8rem;
-	padding: 0.6rem 1.2rem;
-	background-color: #F9D5D3;
-	border: none;
-	border-radius: 8px;
-	cursor: pointer;
-	font-weight: 600;
+  margin-top: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #F9D5D3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif; // button text matches
 }
 
 .comments form button:hover {
-	background-color: #F7BEB8;
+  background-color: #F7BEB8;
 }
 
 .comment {
-	margin-top: 1rem;
-	padding: 1rem;
-	border-top: 1px solid #E6D9F0;
-	border-radius: 8px;
-	background: #FAF7F3;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #E6D9F0;
+  border-radius: 8px;
+  background: #FAF7F3;
+  font-family: "Nunito", sans-serif; // comment text matches
 }
 
 .comment p {
-	margin: 0.3rem 0;
+  margin: 0.3rem 0;
+  font-family: "Nunito", sans-serif; // ensure paragraph text matches
+}
+
+/* "No comments yet..." text */
+.comments p {
+  color: #555;
+  font-family: "Nunito", sans-serif;
 }
