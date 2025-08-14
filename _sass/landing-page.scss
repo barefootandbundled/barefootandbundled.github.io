@@ -10,7 +10,7 @@ $brand-lavender-dark: #6B5B95;
 $brand-outline: #A492C9;
 $body-text: #333333;
 $muted: #777777;
-$middle-gradient-color: $brand-blue; // used in hero gradient
+$middle-gradient-color: $brand-blue;
 $secondary-brand-color: $brand-lilac;
 
 // ==========================
@@ -121,7 +121,6 @@ a:hover {
 // ==========================
 .hero {
   color: #2B2B2B;
-  text-align: left;
   background-color: $brand-cream;
   padding: 50px 0;
 
@@ -139,6 +138,16 @@ a:hover {
   .text-container {
     flex: 1;
     padding-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  // horizontally centers h1 and p
+    text-align: center;   // ensures text inline elements are centered
+
+    h1,
+    p {
+      margin: 0; // remove default browser margins that can misalign
+    }
   }
 
   .image-container {
@@ -153,6 +162,14 @@ a:hover {
       margin-left: auto;
       margin-right: auto;
     }
+  }
+}
+
+// Mobile-first adjustments
+@media (min-width: 768px) {
+  .hero .text-container {
+    align-items: flex-start; // heading and text left-aligned on desktop
+    text-align: left;
   }
 }
 
