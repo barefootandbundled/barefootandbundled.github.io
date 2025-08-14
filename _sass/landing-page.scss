@@ -89,47 +89,46 @@ a:hover { color: $brand-outline; }
   background-color: rgba(107,91,149,0.06);
 }
 
-// ==========================
-// Homepage Hero - 2 Column
-// ==========================
 .hero.home-hero {
-  color: #2B2B2B;
-  background-color: $brand-cream;
-  padding: 50px 0;
-
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-between; // ensure text left, image right
+    justify-content: space-between;
     gap: 2rem;
-    text-align: left; // text aligned left
+
+    // Desktop: text left, image right
+    text-align: left;
 
     @media (max-width: 768px) {
       flex-direction: column;
-      text-align: center;
+      text-align: center; // center on mobile
     }
   }
 
-  .text-container { 
-    flex: 1; 
+  .text-container {
+    flex: 1;
     padding-right: 2rem;
+
+    // Ensure child elements are aligned properly
+    h1, p, .cta {
+      margin: 0 0 1rem 0; // spacing between elements
+      text-align: inherit; // inherit container alignment
+    }
   }
 
-  .image-container { 
-    flex: 1.2; 
+  .image-container {
+    flex: 1.2;
     max-width: 600px;
 
     img {
       width: 100%;
       height: auto;
-      border-radius: 20px; // rounded corners
+      border-radius: 20px;
       display: block;
       margin: 0 auto;
       object-fit: cover;
     }
   }
-
-  p { color: #2B2B2B; }
 }
 
 // ==========================
