@@ -19,59 +19,30 @@ $secondary-brand-color: $brand-lilac;
 body, button, input, textarea, select {
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
-  font-style: normal;
   color: $body-text;
   background-color: $brand-cream;
 }
 
-strong, b {
-  font-weight: 500; // medium for bold text
-}
-
-em, i {
-  font-style: italic; // italic for emphasis
-  font-weight: 200;
-}
+strong, b { font-weight: 500; }
+em, i { font-style: italic; font-weight: 200; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dawning of a New Day', cursive;
 }
 
-h1 {
-  font-size: 3.5rem;
-}
+h1 { font-size: 3.5rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 2rem; }
+h4, h5, h6 { font-size: 1.5rem; }
 
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4, h5, h6 {
-  font-size: 1.5rem;
-}
-
-// Decorative text
 .decorative {
   font-family: 'Dawning of a New Day', cursive;
-  font-size: 2rem; // visually match h2
+  font-size: 2rem;
   font-weight: normal;
   margin-top: 1.5em;
   margin-bottom: 0;
   text-align: center;
 }
-
-// ==========================
-// Nav Links
-// ==========================
-.site-nav a {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600; // semi bold
-  letter-spacing: 0.5px;
-}
-
 
 // ==========================
 // Links
@@ -81,9 +52,7 @@ a {
   text-decoration: none;
   transition: color .25s ease;
 }
-a:hover {
-  color: $brand-outline;
-}
+a:hover { color: $brand-outline; }
 
 // ==========================
 // Buttons / CTA
@@ -95,33 +64,26 @@ a:hover {
   transition: all .25s ease;
 }
 
-// Outline button style
 .wp-block-button__link,
 .button--outline {
   background: transparent !important;
   color: $brand-lavender-dark !important;
   border: 2px solid $brand-lilac;
 }
-
-// Hover effect for outline
 .wp-block-button__link:hover,
 .button--outline:hover {
   color: $brand-lavender-dark;
   border-color: $brand-lavender-dark;
-  background-color: rgba(107,91,149,0.06); // subtle lavender tint
+  background-color: rgba(107,91,149,0.06);
 }
 
 // ==========================
-// Hero Section
+// Homepage Hero Section Only
 // ==========================
-.hero {
+.home .hero {
   color: #2B2B2B;
   background-color: $brand-cream;
   padding: 50px 0;
-
-  p {
-    color: #2B2B2B;
-  }
 
   .container {
     display: flex;
@@ -136,10 +98,7 @@ a:hover {
     }
   }
 
-  .text-container {
-    flex: 1;
-    padding-right: 0;
-  }
+  .text-container { flex: 1; padding-right: 0; }
 
   .image-container {
     flex: 1.2;
@@ -157,36 +116,24 @@ a:hover {
 }
 
 // ==========================
-// Content Sections
+// Homepage Content Sections
 // ==========================
-.content {
-  section {
-    margin: 50px 0;
+.home .content section {
+  margin: 50px 0;
 
-    .container {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 
-      .text-container {
-        flex: 1;
-      }
+    .text-container { flex: 1; }
+    .image-container { flex: 1; }
 
-      .image-container {
-        flex: 1;
-        img {
-          max-width: 100%;
-          height: auto;
-          border-radius: 10px;
-        }
-      }
-    }
-
-    // Alternate image/text for even sections
-    &:nth-child(even) .container {
-      flex-direction: row-reverse;
-    }
+    img { max-width: 100%; height: auto; border-radius: 10px; }
   }
+
+  // Alternate image/text for even sections
+  &:nth-child(even) .container { flex-direction: row-reverse; }
 }
 
 // ==========================
@@ -194,14 +141,11 @@ a:hover {
 // ==========================
 .testimonial {
   background: #FAF3E7;
-  margin: 0;
   padding: 100px 0;
 
   .testimonial-block {
     max-width: 750px;
-    width: 98%;
     margin: 0 auto;
-
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -216,11 +160,7 @@ a:hover {
 
     blockquote {
       flex: 1;
-
-      p.author {
-        font-weight: bold;
-        margin-top: 0.5rem;
-      }
+      p.author { font-weight: bold; margin-top: 0.5rem; }
     }
   }
 }
@@ -229,39 +169,41 @@ a:hover {
 // Bottom CTA
 // ==========================
 .bottom-cta {
-  background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+  background: linear-gradient(to bottom, $secondary-brand-color 0%, $middle-gradient-color 100%);
   color: #2B2B2B;
   text-align: center;
-  margin: 0;
   padding: 100px 0;
 
-  h2 {
-    margin-bottom: 50px;
-  }
+  h2 { margin-bottom: 50px; }
 }
 
 // ==========================
-// Screenshot / misc images
+// Normal Page Content (About, Privacy, Terms)
 // ==========================
-.screenshot {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
-  background: #DDD;
-  padding: 20px 0 0 0;
+body:not(.home) .content,
+body:not(.home) section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
 }
 
+body:not(.home) h1,
+body:not(.home) h2 { text-align: center; margin-bottom: 25px; }
 
-// ==========================
-// Footer / metadata
-// ==========================
-.site-footer, .post-meta {
-  color: $muted;
-  font-size: 0.95rem;
+body:not(.home) p,
+body:not(.home) ul {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+body:not(.home) .decorative {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1.5em;
+  margin-bottom: 0;
 }
 
 // ==========================
@@ -274,14 +216,6 @@ a:hover {
     text-align: center;
   }
 
-  .hero .image-container,
-  .content .image-container {
-    max-width: 90%;
-    margin-top: 1.5rem;
-  }
-
-  .hero .text-container,
-  .content .text-container {
-    padding-right: 0;
-  }
+  .image-container { max-width: 90%; margin-top: 1.5rem; }
+  .text-container { padding-right: 0; }
 }
