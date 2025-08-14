@@ -29,7 +29,7 @@ strong, b {
 }
 
 em, i {
-  font-style: italic; // italic for emphasis
+  font-style: italic;
   font-weight: 200;
 }
 
@@ -56,7 +56,7 @@ h4, h5, h6 {
 // Decorative text
 .decorative {
   font-family: 'Dawning of a New Day', cursive;
-  font-size: 2rem; // visually match h2
+  font-size: 2rem;
   font-weight: normal;
   margin-top: 1.5em;
   margin-bottom: 0;
@@ -68,10 +68,9 @@ h4, h5, h6 {
 // ==========================
 .site-nav a {
   font-family: 'Inter', sans-serif;
-  font-weight: 600; // semi bold
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
-
 
 // ==========================
 // Links
@@ -103,25 +102,20 @@ a:hover {
   border: 2px solid $brand-lilac;
 }
 
-// Hover effect for outline
 .wp-block-button__link:hover,
 .button--outline:hover {
   color: $brand-lavender-dark;
   border-color: $brand-lavender-dark;
-  background-color: rgba(107,91,149,0.06); // subtle lavender tint
+  background-color: rgba(107,91,149,0.06);
 }
 
 // ==========================
-// Hero Section
+// Homepage Hero - 2 Column
 // ==========================
-.hero {
+body.home .hero {
   color: #2B2B2B;
   background-color: $brand-cream;
   padding: 50px 0;
-
-  p {
-    color: #2B2B2B;
-  }
 
   .container {
     display: flex;
@@ -156,6 +150,10 @@ a:hover {
   }
 }
 
+.hero p {
+  color: #2B2B2B;
+}
+
 // ==========================
 // Content Sections
 // ==========================
@@ -182,7 +180,6 @@ a:hover {
       }
     }
 
-    // Alternate image/text for even sections
     &:nth-child(even) .container {
       flex-direction: row-reverse;
     }
@@ -201,7 +198,6 @@ a:hover {
     max-width: 750px;
     width: 98%;
     margin: 0 auto;
-
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -254,7 +250,6 @@ a:hover {
   background: #DDD;
   padding: 20px 0 0 0;
 }
-
 
 // ==========================
 // Footer / metadata
