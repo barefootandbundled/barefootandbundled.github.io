@@ -36,7 +36,6 @@ h2 { font-size: 2.5rem; }
 h3 { font-size: 2rem; }
 h4, h5, h6 { font-size: 1.5rem; }
 
-// Decorative text
 .decorative {
   font-family: 'Dawning of a New Day', cursive;
   font-size: 2rem;
@@ -47,7 +46,7 @@ h4, h5, h6 { font-size: 1.5rem; }
 }
 
 // ==========================
-// Nav Links
+// Links & Nav
 // ==========================
 .site-nav a {
   font-family: 'Inter', sans-serif;
@@ -55,9 +54,6 @@ h4, h5, h6 { font-size: 1.5rem; }
   letter-spacing: 0.5px;
 }
 
-// ==========================
-// Links
-// ==========================
 a {
   color: $brand-lavender-dark;
   text-decoration: none;
@@ -88,14 +84,15 @@ a:hover { color: $brand-outline; }
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    text-align: center;
+    text-align: left; // ensure text-left
 
     @media (max-width: 768px) {
       flex-direction: column;
+      text-align: center;
     }
   }
 
-  .text-container { flex: 1; padding-right: 0; }
+  .text-container { flex: 1; padding-right: 2rem; }
   .image-container { 
     flex: 1.2; 
     max-width: 600px;
@@ -141,6 +138,7 @@ a:hover { color: $brand-outline; }
 
 // Stack on smaller screens
 @media (max-width: 768px) {
+  .hero.home-hero .container,
   .content section {
     flex-direction: column !important;
 
@@ -203,7 +201,7 @@ a:hover { color: $brand-outline; }
 }
 
 // ==========================
-// Screenshot / misc images
+// Screenshots / misc images
 // ==========================
 .screenshot {
   max-width: 100%;
