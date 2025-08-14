@@ -89,19 +89,24 @@ a:hover { color: $brand-outline; }
   background-color: rgba(107,91,149,0.06);
 }
 
+// ==========================
+// Homepage Hero - Two Column
+// ==========================
 .hero.home-hero {
+  color: #2B2B2B;
+  background-color: $brand-cream;
+  padding: 50px 0;
+
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-
-    // Desktop: text left, image right
     text-align: left;
 
     @media (max-width: 768px) {
       flex-direction: column;
-      text-align: center; // center on mobile
+      text-align: center;
     }
   }
 
@@ -109,10 +114,19 @@ a:hover { color: $brand-outline; }
     flex: 1;
     padding-right: 2rem;
 
-    // Ensure child elements are aligned properly
-    h1, p, .cta {
-      margin: 0 0 1rem 0; // spacing between elements
-      text-align: inherit; // inherit container alignment
+    h1 {
+      margin: 0 0 1rem 0; // keep spacing below heading
+    }
+
+    p {
+      margin: 0 0 2rem 0; // generous space before button
+      color: #2B2B2B;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 0; // no compression
+      text-align: inherit; // left on desktop, center on mobile
     }
   }
 
@@ -126,10 +140,6 @@ a:hover { color: $brand-outline; }
       border-radius: 20px;
       display: block;
       margin: 0 auto;
-      object-fit: cover;
-    }
-  }
-}
 
 // ==========================
 // Homepage content sections - alternating left/right images ONLY
