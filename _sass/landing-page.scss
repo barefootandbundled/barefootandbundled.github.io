@@ -133,6 +133,44 @@ a:hover { color: $brand-outline; }
 }
 
 // ==========================
+// Homepage content sections - alternating left/right images ONLY
+// ==========================
+.home-content section {
+  margin: 50px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap; // mobile-friendly stacking
+  }
+
+  .text-container,
+  .image-container {
+    flex: 1;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; // rounded corners
+  }
+
+  // Alternate layout for even-numbered sections
+  &:nth-child(even) .container {
+    flex-direction: row-reverse;
+  }
+
+  // Mobile fallback
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column !important;
+      text-align: center;
+    }
+  }
+}
+
+// ==========================
 // Content Sections - normal vertical flow
 // ==========================
 .content section {
