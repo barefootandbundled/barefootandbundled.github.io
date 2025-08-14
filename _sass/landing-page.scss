@@ -27,9 +27,7 @@ body, button, input, textarea, select {
 strong, b { font-weight: 500; }
 em, i { font-style: italic; font-weight: 200; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Dawning of a New Day', cursive;
-}
+h1, h2, h3, h4, h5, h6 { font-family: 'Dawning of a New Day', cursive; }
 
 h1 { font-size: 3.5rem; }
 h2 { font-size: 2.5rem; }
@@ -75,26 +73,21 @@ a:hover { color: $brand-outline; }
 // Homepage Hero - 2 Column
 // ==========================
 .hero.home-hero {
-  color: #2B2B2B;
-  background-color: $brand-cream;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
   padding: 50px 0;
+  background-color: $brand-cream;
+  color: #2B2B2B;
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    text-align: left; // ensure text-left
-
-    @media (max-width: 768px) {
-      flex-direction: column;
-      text-align: center;
-    }
+  .text-container {
+    flex: 1;
+    padding-right: 1rem;
   }
 
-  .text-container { flex: 1; padding-right: 2rem; }
-  .image-container { 
-    flex: 1.2; 
+  .image-container {
+    flex: 1.2;
     max-width: 600px;
 
     img {
@@ -106,7 +99,17 @@ a:hover { color: $brand-outline; }
     }
   }
 
-  p { color: #2B2B2B; }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+
+    .text-container,
+    .image-container {
+      max-width: 90%;
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
 }
 
 // ==========================
@@ -114,9 +117,8 @@ a:hover { color: $brand-outline; }
 // ==========================
 .content section {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  margin: 50px 0;
+  margin-bottom: 4rem;
 
   .text-container,
   .image-container {
@@ -129,17 +131,12 @@ a:hover { color: $brand-outline; }
     height: auto;
     display: block;
   }
-}
 
-// Alternate image/text for even sections
-.content section:nth-child(even) {
-  flex-direction: row-reverse;
-}
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 
-// Stack on smaller screens
-@media (max-width: 768px) {
-  .hero.home-hero .container,
-  .content section {
+  @media (max-width: 768px) {
     flex-direction: column !important;
 
     .text-container,
@@ -189,7 +186,7 @@ a:hover { color: $brand-outline; }
 // Bottom CTA
 // ==========================
 .bottom-cta {
-  background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+  background: linear-gradient(to bottom, $brand-cream 0%, $middle-gradient-color 100%);
   color: #2B2B2B;
   text-align: center;
   margin: 0;
@@ -213,12 +210,4 @@ a:hover { color: $brand-outline; }
   box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
   background: #DDD;
   padding: 20px 0 0 0;
-}
-
-// ==========================
-// Footer / metadata
-// ==========================
-.site-footer, .post-meta {
-  color: $muted;
-  font-size: 0.95rem;
 }
