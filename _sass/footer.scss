@@ -2,11 +2,11 @@ footer {
   padding: 50px 0;
   font-size: 1.1em;
   position: relative;
-  background: linear-gradient(to bottom, $brand-cream, #F9D5D3);
+  background: linear-gradient(to bottom, $brand-cream 0%, #F9D5D3 100%);
   color: #2B2B2B;
 
   .copyright {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin: 0 auto;
     
     @media #{$tablet} {
@@ -77,10 +77,10 @@ footer {
     width: 100%;
     padding: 30px 0;
     margin: 0;
-    background: linear-gradient(to bottom, $brand-cream, #F9D5D3);
+    background: linear-gradient(to bottom, $brand-cream 0%, #F9D5D3 100%);
 
     a {
-      font-weight: 600;
+      font-weight: 400;
       color: #2B2B2B;
 
       &:hover {
