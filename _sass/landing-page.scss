@@ -76,9 +76,47 @@ a:hover { color: $brand-outline; }
 }
 
 // ==========================
-// Alternating Feature Sections
+// Homepage Hero - 2 Column
 // ==========================
-.feature {
+.hero.home-hero {
+  color: #2B2B2B;
+  background-color: $brand-cream;
+  padding: 50px 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .text-container { flex: 1; padding-right: 0; }
+
+  .image-container { 
+    flex: 1.2; 
+    max-width: 600px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  p { color: #2B2B2B; }
+}
+
+// ==========================
+// Alternating Feature Sections (Below Hero)
+// ==========================
+.features-section .feature {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -94,17 +132,16 @@ a:hover { color: $brand-outline; }
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 10px;
+  }
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
   }
 }
 
-// Reverse order for odd sections
-.feature:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-
-// Stack on smaller screens
 @media (max-width: 768px) {
-  .feature {
+  .features-section .feature {
     flex-direction: column !important;
 
     .feature__image,
@@ -115,3 +152,58 @@ a:hover { color: $brand-outline; }
   }
 }
 
+// ==========================
+// Testimonials
+// ==========================
+.testimonial {
+  background: #FAF3E7;
+  margin: 0;
+  padding: 100px 0;
+
+  .testimonial-block {
+    max-width: 750px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+
+    .square-image img {
+      border-radius: 10px;
+      width: 150px;
+      height: auto;
+      object-fit: cover;
+    }
+
+    blockquote {
+      flex: 1;
+
+      p.author {
+        font-weight: bold;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
+
+// ==========================
+// Bottom CTA
+// ==========================
+.bottom-cta {
+  background: linear-gradient(to bottom, $brand-color 0%, $middle-gradient-color 100%);
+  color: #2B2B2B;
+  text-align: center;
+  margin: 0;
+  padding: 100px 0;
+
+  h2 { margin-bottom: 50px; }
+}
+
+// ==========================
+// Footer / metadata
+// ==========================
+.site-footer, .post-meta {
+  color: $muted;
+  font-size: 0.95rem;
+}
