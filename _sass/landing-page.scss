@@ -24,34 +24,17 @@ body, button, input, textarea, select {
   background-color: $brand-cream;
 }
 
-strong, b {
-  font-weight: 500; // medium for bold text
-}
-
-em, i {
-  font-style: italic;
-  font-weight: 200;
-}
+strong, b { font-weight: 500; }
+em, i { font-style: italic; font-weight: 200; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Dawning of a New Day', cursive;
 }
 
-h1 {
-  font-size: 3.5rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4, h5, h6 {
-  font-size: 1.5rem;
-}
+h1 { font-size: 3.5rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 2rem; }
+h4, h5, h6 { font-size: 1.5rem; }
 
 // Decorative text
 .decorative {
@@ -80,9 +63,7 @@ a {
   text-decoration: none;
   transition: color .25s ease;
 }
-a:hover {
-  color: $brand-outline;
-}
+a:hover { color: $brand-outline; }
 
 // ==========================
 // Buttons / CTA
@@ -94,7 +75,6 @@ a:hover {
   transition: all .25s ease;
 }
 
-// Outline button style
 .wp-block-button__link,
 .button--outline {
   background: transparent !important;
@@ -110,7 +90,7 @@ a:hover {
 }
 
 // ==========================
-// Homepage Hero - 2 Column
+// Homepage Hero - 2 Column ONLY
 // ==========================
 .hero.home-hero {
   color: #2B2B2B;
@@ -126,17 +106,12 @@ a:hover {
 
     @media (max-width: 768px) {
       flex-direction: column;
-      text-align: center;
     }
   }
 
-  .text-container {
-    flex: 1;
-    padding-right: 0;
-  }
-
-  .image-container {
-    flex: 1.2;
+  .text-container { flex: 1; padding-right: 0; }
+  .image-container { 
+    flex: 1.2; 
     max-width: 600px;
 
     img {
@@ -144,45 +119,28 @@ a:hover {
       height: auto;
       border-radius: 10px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
     }
   }
-}
 
-.hero p {
-  color: #2B2B2B;
+  p { color: #2B2B2B; }
 }
 
 // ==========================
-// Content Sections
+// Content Sections - normal vertical flow
 // ==========================
-.content {
-  section {
-    margin: 50px 0;
+.content section {
+  margin: 50px 0;
 
-    .container {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
+  .text-container,
+  .image-container {
+    width: 100%;
+  }
 
-      .text-container {
-        flex: 1;
-      }
-
-      .image-container {
-        flex: 1;
-        img {
-          max-width: 100%;
-          height: auto;
-          border-radius: 10px;
-        }
-      }
-    }
-
-    &:nth-child(even) .container {
-      flex-direction: row-reverse;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
 }
 
@@ -231,9 +189,7 @@ a:hover {
   margin: 0;
   padding: 100px 0;
 
-  h2 {
-    margin-bottom: 50px;
-  }
+  h2 { margin-bottom: 50px; }
 }
 
 // ==========================
@@ -244,8 +200,7 @@ a:hover {
   height: auto;
   display: block;
   border-radius: 2px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   box-shadow: 0 1px 0 #ccc, 0 1px 0 1px #eee;
   background: #DDD;
   padding: 20px 0 0 0;
@@ -260,23 +215,20 @@ a:hover {
 }
 
 // ==========================
-// Media Queries
+// Media Queries - HOME HERO ONLY
 // ==========================
 @media (max-width: 768px) {
-  .hero .container,
-  .content .container {
+  .hero.home-hero .container {
     flex-direction: column;
     text-align: center;
   }
 
-  .hero .image-container,
-  .content .image-container {
+  .hero.home-hero .image-container {
     max-width: 90%;
     margin-top: 1.5rem;
   }
 
-  .hero .text-container,
-  .content .text-container {
+  .hero.home-hero .text-container {
     padding-right: 0;
   }
 }
