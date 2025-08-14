@@ -3,7 +3,7 @@ date: 2025-08-14
 title: Affordable Skincare Favorites
 categories:
   - skincare
-author_staff_member:
+permalink: /affordable-skincare-favorites/
 ---
 
 Who says glowing skin has to cost a fortune? Over the years, I’ve tried everything from high-end serums to budget-friendly basics, and I’ve discovered that some of the most effective products are surprisingly affordable. Especially with the unfortunate pop-up of adult acne I've been dealing with (Why!?), I’m sharing my go-to skincare picks that have been keeping my skin smooth, hydrated, and happy without breaking the bank.
