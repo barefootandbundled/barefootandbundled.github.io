@@ -1,32 +1,21 @@
 // ==========================
-// Brand Colors / Variables
-// ==========================
-$brand-cream: #FAF7F3;
-$brand-lilac: #E6D9F0;
-$brand-lavender-dark: #6B5B95;
-$brand-outline: #A492C9;
-$body-text: #333333;
-$muted: #777777;
-
-// ==========================
-// Base HTML
+// Global Styles
 // ==========================
 html {
-  background: $brand-pink;
+  background: $brand-cream;
 }
 
 html, body {
   margin: 0;
   padding: 0;
-}
-
-body {
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
-  font-style: normal;
   color: $body-text;
-  background-color: $brand-cream;
-  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 // ==========================
@@ -34,33 +23,51 @@ body {
 // ==========================
 h1 {
   font-family: 'Dawning of a New Day', cursive;
+  font-weight: 300;
   font-size: 3.5rem;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-h4, h5, h6 { font-size: 1rem; }
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+}
 
-strong, b { font-weight: 500; }
-em, i { font-style: italic; font-weight: 200; }
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 20px 0 10px 0;
+}
+
+h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 10px 0;
+}
 
 // ==========================
-// Paragraphs / Text
+// Paragraphs & text
 // ==========================
 p, address {
   font-size: 1.1rem;
-  color: $body-text;
-  margin-bottom: 1.5em;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
+// ==========================
+// Decorative text
+// ==========================
 .decorative {
   font-family: 'Dawning of a New Day', cursive;
   font-size: 2rem;
   font-weight: normal;
+  text-align: center;
   margin-top: 1.5em;
   margin-bottom: 0;
-  text-align: center;
 }
 
 // ==========================
@@ -69,17 +76,22 @@ p, address {
 a {
   color: $brand-lavender-dark;
   text-decoration: none;
-  transition: color .25s ease;
+  transition: color 0.25s ease;
 }
-a:hover, a:focus {
+
+a:hover {
   color: $brand-outline;
   text-decoration: underline;
 }
 
 // ==========================
-// Images
+// Inline text emphasis
 // ==========================
-img {
-  width: 100%;
-  height: auto;
+strong, b {
+  font-weight: 500;
+}
+
+em, i {
+  font-style: italic;
+  font-weight: 200;
 }
