@@ -1,5 +1,17 @@
+// ==========================
+// Variables / Brand Colors
+// ==========================
+$brand-cream: #FAF7F3;
+$brand-yellow: #FFF9D6;
+$brand-pink: #F9D5D3;
+$brand-blue: #D6E7F5;
+$brand-lilac: #E6D9F0;
+$brand-lavender-dark: #6B5B95;
+$brand-outline: #A492C9;
+$body-text: #333333;
+$muted: #777777;
 $brand-color: #FAF7F3;
-$secondary-brand-color: #FAF7F3;
+$secondary-brand-color: $brand-lilac;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 
 // Breakpoints
