@@ -7,11 +7,7 @@ permalink: /affordable-skincare-favorites/
 ---
 Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adult acne I’ve been dealing with lately (Why!?), I’ve been doomscrooling searching for the best and cheapest skincare solutions. Thankfully, since glass skin is so in, there are now tons of affordable options on the market available for anyone to grab at stores like Target. Here, I’m sharing my personal favorite products that have been keeping my skin smooth, hydrated, and happy without breaking the bank.
 
-*This post contains affiliate links, which means I may earn a tiny commission if you decide to treat yourself at no extra cost to you. Thanks for supporting my cozy corner of the internet!*
-
-{: style="font-size: 0.8em; color: #555;"}
-
-*This post contains affiliate links which means if you decide to treat yourself, I may earn a tiny commission at no extra cost to you. Thanks for supporting my cozy corner of the internet!*
+*This post contains affiliate links, which means I may earn a tiny commission at no extra cost to you if you decide to treat yourself. Thanks for supporting my cozy corner of the internet!*
 
 ## Gentle Cleansers
 
