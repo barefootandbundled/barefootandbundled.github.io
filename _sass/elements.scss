@@ -46,6 +46,7 @@ h3 {
 	margin: 20px 0 10px 0;
 }
 
+h4, h5, h6 { font-size: 1rem; }
 
 p, address {
 	font-size: 1.1rem;
@@ -53,4 +54,14 @@ p, address {
 	margin-bottom: 20px;
 	font-weight: 300;
 	line-height: 1.5;
+}
+
+// Decorative text
+.decorative {
+  font-family: 'Dawning of a New Day', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  margin-top: 1.5em;
+  margin-bottom: 0;
+  text-align: center;
 }
