@@ -15,9 +15,9 @@ Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adul
 
 No frills; Just give me a basic cleanser that is gentle enough for sensitive skin, removes my makeup and, *for the love of god*, doesn't sting my eyes!
 
-- SKIN1004 Madagascar Centella [Light Cleansing Oil] (https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12593838) and [Ampoule Foam] (https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12593890)
-- [Prequel Facial Gleanser Cleanser] (https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=13561668)
-- [Garnier SkinActive Cleansing Micellar Water] (https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12594333)
+- SKIN1004 Madagascar Centella [Light Cleansing Oil](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12593838) and [Ampoule Foam](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12593890)
+- [Prequel Facial Gleanser Cleanser](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=13561668)
+- [Garnier SkinActive Cleansing Micellar Water](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12594333)
 
 Centella is great for acne-prone skin, so SKIN1004's Ampoule Foam has been my holy grail for years. Prequel is new to me, but I instantly fell in love after trying the travel size! Finally, makeup is no match for some micellar water and honestly, sometimes a girl just wants to quickly rinse her face and get to bed. The Garnier micellar water has been my go-to since high school.
 
