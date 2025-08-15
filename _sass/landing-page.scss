@@ -1,57 +1,4 @@
 // ==========================
-// Variables / Brand Colors
-// ==========================
-$brand-cream: #FAF7F3;
-$brand-yellow: #FFF9D6;
-$brand-pink: #F9D5D3;
-$brand-blue: #D6E7F5;
-$brand-lilac: #E6D9F0;
-$brand-lavender-dark: #6B5B95;
-$brand-outline: #A492C9;
-$body-text: #333333;
-$muted: #777777;
-$middle-gradient-color: $brand-blue;
-$secondary-brand-color: $brand-lilac;
-
-// ==========================
-// Global Typography
-// ==========================
-body, button, input, textarea, select {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  color: $body-text;
-  background-color: $brand-cream;
-}
-
-strong, b { font-weight: 500; }
-em, i { font-style: italic; font-weight: 200; }
-
-h1 {
-  font-family: 'Dawning of a New Day', cursive;
-}
-
-h1 { font-size: 3.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-h4, h5, h6 { font-size: 1rem; }
-
-p {
-  font-size: 1.1rem;
-  line-height: 1.5;
-}
-
-// Decorative text
-.decorative {
-  font-family: 'Dawning of a New Day', cursive;
-  font-size: 2rem;
-  font-weight: normal;
-  margin-top: 1.5em;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-// ==========================
 // Nav Links
 // ==========================
 .site-nav a {
@@ -64,11 +11,11 @@ p {
 // Links
 // ==========================
 a {
-  color: $brand-lavender-dark;
-  text-decoration: none;
+  color: $brand-lilac;
+  text-decoration: underline;
   transition: color .25s ease;
 }
-a:hover { color: $brand-outline; }
+a:hover { color: $brand-lavender-dark; }
 
 // ==========================
 // Buttons / CTA
