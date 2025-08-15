@@ -22,13 +22,19 @@ body, button, input, textarea, select {
 strong, b { font-weight: 500; }
 em, i { font-style: italic; font-weight: 200; }
 
+// ==========================
+// Links
+// ==========================
 a {
-	color: #2B2B2B !important;
-	text-decoration: none;
+  color: #9B84D2; // main link color
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.25s ease;
 }
 
 a:hover {
-	text-decoration: underline;
+  color: #A291E0; // slightly lighter on hover
+  text-decoration: underline;
 }
 
 img {
