@@ -7,8 +7,13 @@
   <!-- Pinterest Domain Verify -->
   <meta name="p:domain_verify" content="0e45534fa39c91878003bd4df3542e94"/>
 
-  {% seo %}
-  {% feed_meta %}
+  <!-- SEO & Feeds (safe fallbacks if plugins missing) -->
+  {% if site.plugins contains "jekyll-seo-tag" %}
+    {% seo %}
+  {% endif %}
+  {% if site.plugins contains "jekyll-feed" %}
+    {% feed_meta %}
+  {% endif %}
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
@@ -16,27 +21,35 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+  <link rel="stylesheet" href="{{ site.baseurl | default: "" }}/css/screen.css">
+  <link rel="icon" type="image/png" href="{{ site.baseurl | default: "" }}/favicon.png">
 
-  <!-- Google Analytics -->
-  {% if jekyll.environment == 'production' and site.google_analytics_key and site.google_analytics_key != '' %}
+  <!-- Google Analytics (safe conditional) -->
+  {% if jekyll.environment == "production" and site.google_analytics_key %}
   <script>
     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
     ga('create', '{{ site.google_analytics_key }}', 'auto');
     ga('send', 'pageview');
   </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
   {% endif %}
 
-<!-- Pinterest Tag -->
-<script>
-!function(e){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};
-var n=window.pintrk;n.queue=[],n.version="3.0";var t=document.createElement("script");
-t.async=!0;t.src=e;var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
-pintrk('load','2612784557463');
-pintrk('page');
-</script>
+  <!-- Pinterest Tag -->
+  <script>
+  !function(e){
+    if(!window.pintrk){
+      window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};
+      var n=window.pintrk;
+      n.queue=[],n.version="3.0";
+      var t=document.createElement("script");
+      t.async=!0;t.src=e;
+      var r=document.getElementsByTagName("script")[0];
+      r.parentNode.insertBefore(t,r)
+    }
+  }("https://s.pinimg.com/ct/core.js");
+  pintrk('load','2612784557463');
+  pintrk('page');
+  </script>
 
   <noscript>
     <img height="1" width="1" style="display:none;" alt=""
