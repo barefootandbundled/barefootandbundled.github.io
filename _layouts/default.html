@@ -1,60 +1,64 @@
 <!doctype html>
+
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Pinterest Domain Verify -->
-  <meta name="p:domain_verify" content="0e45534fa39c91878003bd4df3542e94"/>
+		{% seo %}
+		{% feed_meta %}
 
-  <!-- SEO & Feeds (safe fallbacks if plugins missing) -->
-  {% if site.plugins contains "jekyll-seo-tag" %}
-    {% seo %}
-  {% endif %}
-  {% if site.plugins contains "jekyll-feed" %}
-    {% feed_meta %}
-  {% endif %}
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl | default: "" }}/css/screen.css">
-  <link rel="icon" type="image/png" href="{{ site.baseurl | default: "" }}/favicon.png">
-
-  <!-- Google Analytics (safe conditional) -->
-  {% if jekyll.environment == "production" and site.google_analytics_key %}
-  <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', '{{ site.google_analytics_key }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <script async src="https://www.google-analytics.com/analytics.js"></script>
-  {% endif %}
-
-  <!-- Pinterest Tag -->
-  <script>
-  !function(e){
-    if(!window.pintrk){
-      window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};
-      var n=window.pintrk;
-      n.queue=[],n.version="3.0";
-      var t=document.createElement("script");
-      t.async=!0;t.src=e;
-      var r=document.getElementsByTagName("script")[0];
-      r.parentNode.insertBefore(t,r)
-    }
-  }("https://s.pinimg.com/ct/core.js");
-  pintrk('load','2612784557463');
-  pintrk('page');
-  </script>
-
-  <noscript>
-    <img height="1" width="1" style="display:none;" alt=""
-         src="https://ct.pinterest.com/v3/?event=init&tid=2612784557463&noscript=1" />
-  </noscript>
-
-</head>
-<body>
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+<!-- Nunito font -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
+<!-- Dreaming of a New Day font -->
+<link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
+<!-- Inter font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+		
+		
+		{% if jekyll.environment == 'production' and site.google_analytics_key and site.google_analytics_key != '' %}
+			<script>
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', '{{ site.google_analytics_key }}', 'auto');
+				ga('send', 'pageview');
+			</script>
+			<script async src='https://www.google-analytics.com/analytics.js'></script>
+		{% endif %}
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Barefoot and Bundled" width="105" height="36" /></a></div>
+				{% include navigation.html %}
+			</div>
+		</header>
+		{{ content }}
+		<footer>
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
+				<div class="footer-columns">
+					{% for column in site.data.footer %}
+					<ul class="footer-links">
+						{% for link in column.links %}
+							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+								{% if link.social_icon %}
+									{% include social-icon.html icon=link.social_icon %}
+								{% endif %}
+								{{ link.name }}</a></li>
+						{% endfor %}
+					</ul>
+					{% endfor %}
+				</div>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Barefoot & Bundled • <a href="/terms/">Terms</a> &amp; <a href="/privacy/">Privacy</a> • <a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+			</div>
+		</footer>
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+	</body>
+</html>
