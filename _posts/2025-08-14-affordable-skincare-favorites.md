@@ -13,6 +13,8 @@ Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adul
 
 No frills; Just give me a basic cleanser that is gentle enough for sensitive skin, removes my makeup and, *for the love of god*, doesn’t sting my eyes!
 
+![Facial Cleansers, Micellar Water](/uploads/img-3938-1.jpeg "Gentle Facial Cleansers")
+
 * SKIN1004 Madagascar Centella [Light Cleansing Oil](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12593838) and [Ampoule Foam](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12593890)
 * [Prequel Facial Gleanser Cleanser](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=13561668)
 * [Garnier SkinActive Cleansing Micellar Water](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=12594333)
