@@ -4,24 +4,25 @@ title: Do Your Own Gel Manicure at Home
 categories:
   - beauty
 permalink: /gel-manicure-at-home/
+image: /uploads/img-3916.jpg
 ---
-Hey! If you landed on this post, you're probably just like me - you go to the salon every 2, 3, maybe 4 weeks if you're lucky. Sit there for an hour+ just to walk out of there paying $70 for nails that might chip or peel in a couple weeks! Read on to see how I switched to doing my own gel manicures at home for the price of only a few salon manis.
+Hey! If you landed on this post, you’re probably just like me - you go to the salon every 2, 3, maybe 4 weeks if you’re lucky. Sit there for an hour+ just to walk out of there paying $70 for nails that might chip or peel in a couple weeks! Read on to see how I switched to doing my own gel manicures at home for the price of only a few salon manis.
 
 **Please note** - I am not a professional, this is my personal experience. Doing your own gel manicures comes with risks. Be extremely careful to not get any gel polish on your skin as it may cause an allergic reaction. Please do your own research before deciding to do your own gel manis. I encourage you to watch Youtube tutorials and listen to experts!
 
-* [Supplies You'll Need](#supplies-youll-need)
+* [Supplies You’ll Need](#supplies-youll-need)
 * [Step-by-Step Tutorial](#step-by-step-tutorial)
 * [Gel Removal Tutorial](#gel-removal-tutorial)
 
 *This post contains affiliate links, which means I may earn a tiny commission at no extra cost to you if you decide to treat yourself. Thanks for supporting my cozy corner of the internet!*
 
-## Supplies You'll Need
+## Supplies You’ll Need
 
 Check out [my list of everything I use](https://amzn.to/41hr5UY){: target="_blank" rel="noopener"} for my DIY gel manicures at home. I bought everything on Amazon for convenience, but all of these products can be found at your local beauty supply store, Walmart, Target, etc!
 
 ##### Prep:
 
-[This kit](https://amzn.to/3UFx16n){: target="_blank" rel="noopener"} has you covered with all the tools you'll need and more.
+[This kit](https://amzn.to/3UFx16n){: target="_blank" rel="noopener"} has you covered with all the tools you’ll need and more.
 
 * 100/180 grit nail file
 * [Instant Cuticle Remover](https://amzn.to/4oLX0qH){: target="_blank" rel="noopener"} (optional)
@@ -34,7 +35,7 @@ Check out [my list of everything I use](https://amzn.to/41hr5UY){: target="_blan
 
 * [Gel Base Coat and No Wipe Top Coat](https://amzn.to/478HI98){: target="_blank" rel="noopener"}
 * Gel Polish in your favorite colors!
-  * I recommend the brand DND - it's used in salons, but is available for anyone to purchase. Plus, they regularly have sales where each polish is $5!
+  * I recommend the brand DND - it’s used in salons, but is available for anyone to purchase. Plus, they regularly have sales where each polish is $5!
   * [Here are some of my favorite colors](https://benable.com/barefootandbundled/diy-gel-nails-at-home-90?section-id=1268319){: target="_blank" rel="noopener"}
 * [UV nail lamp](https://amzn.to/4lAl8cT){: target="_blank" rel="noopener"}
 
@@ -51,8 +52,8 @@ Check out [my list of everything I use](https://amzn.to/41hr5UY){: target="_blan
 
 ### Why I decided to ditch the salon
 
-I personally don't mind spending time in the salon. Aside from the awkward small talk that made me cringe (major introvert here!), it was a peaceful outing for myself. However, I hit a breaking point when my nails started bending and splitting from the side. I could swear it was from the e-files. Nail techs would act annoyed and inconvenienced when I asked them not to, some even ignored me. I would get shamed for having such brittle nails at my next visit. It got to the point where a few of my nail beds had been shaved down so far, it was burning!
+I personally don’t mind spending time in the salon. Aside from the awkward small talk that made me cringe (major introvert here!), it was a peaceful outing for myself. However, I hit a breaking point when my nails started bending and splitting from the side. I could swear it was from the e-files. Nail techs would act annoyed and inconvenienced when I asked them not to, some even ignored me. I would get shamed for having such brittle nails at my next visit. It got to the point where a few of my nail beds had been shaved down so far, it was burning!
 
-After this happening over and over, I decided I'd had enough. For the price of 3 or 4 manicures at a salon, I could buy all the nail supplies I needed *plus* more than 10 gel polish colors.
+After this happening over and over, I decided I’d had enough. For the price of 3 or 4 manicures at a salon, I could buy all the nail supplies I needed *plus* more than 10 gel polish colors.
 
 &nbsp;
