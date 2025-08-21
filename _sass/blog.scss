@@ -131,19 +131,19 @@
   border-radius: 12px;
   padding: 1.5rem;
   margin-top: 2rem;
-  font-family: "Nunito", sans-serif; // change here
+  font-family: "Nunito", sans-serif;
 }
 
 .comments h2 {
   margin-bottom: 1rem;
-  font-family: "Nunito", sans-serif; // ensure header matches too
+  font-family: "Nunito", sans-serif;
 }
 
 .comments form label {
   display: block;
   margin-top: 0.8rem;
   font-weight: 600;
-  font-family: "Nunito", sans-serif; // labels now match
+  font-family: "Nunito", sans-serif;
 }
 
 .comments form input,
@@ -153,7 +153,7 @@
   margin-top: 0.3rem;
   border: 1px solid #E6D9F0;
   border-radius: 8px;
-  font-family: "Nunito", sans-serif; // inputs match
+  font-family: "Nunito", sans-serif;
 }
 
 .comments form button {
@@ -164,7 +164,7 @@
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  font-family: "Nunito", sans-serif; // button text matches
+  font-family: "Nunito", sans-serif;
 }
 
 .comments form button:hover {
@@ -177,16 +177,60 @@
   border-top: 1px solid #E6D9F0;
   border-radius: 8px;
   background: #FAF7F3;
-  font-family: "Nunito", sans-serif; // comment text matches
+  font-family: "Nunito", sans-serif;
 }
 
 .comment p {
   margin: 0.3rem 0;
-  font-family: "Nunito", sans-serif; // ensure paragraph text matches
+  font-family: "Nunito", sans-serif;
 }
 
 /* "No comments yet..." text */
 .comments p {
   color: #555;
   font-family: "Nunito", sans-serif;
+}
+
+/* ===================== */
+/* NEW MOBILE + IMAGE FIXES */
+/* ===================== */
+
+/* Prevent horizontal scrolling */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Keep images responsive */
+.blog-post img,
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Center text container on mobile */
+.text-container {
+  max-width: 100%;
+  padding: 0 1rem; /* gives spacing left & right */
+  box-sizing: border-box;
+}
+
+/* Mobile-specific tweaks */
+@media screen and (max-width: 768px) {
+  .blog-post {
+    padding: 0 1rem;
+  }
+
+  .blog-navigation a {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .post-details .post-date {
+    float: none;
+    display: block;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
 }
