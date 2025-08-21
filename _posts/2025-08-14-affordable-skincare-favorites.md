@@ -32,8 +32,6 @@ Centella is great for acne-prone skin, so SKIN1004’s Ampoule Foam has been my 
 
 These are the reason my skin has cleared up so much:
 
-![Office](https://source.unsplash.com/random/1500x1146)
-
 * [Byoma Hydrating Milky Toner](https://amzn.to/4mn5W41){: target="_blank" rel="noopener"}
 * [Cocokind Postbotic Acne Serum](https://amzn.to/4oQN7bo){: target="_blank" rel="noopener"}
 * [Anua Azelaic Acid Serum](https://amzn.to/45rQwWl){: target="_blank" rel="noopener"}
@@ -47,7 +45,7 @@ I’ve been fooled into thinking the expensive creams were worth the splurge. Ta
 * [CeraVe Daily Moisturizing Lotion](https://amzn.to/41fXj2U){: target="_blank" rel="noopener"}
 * [Cocokind Revitalizing Eye Cream](https://amzn.to/3UDL8Ju){: target="_blank" rel="noopener"}
 
-![Raspberries](https://source.unsplash.com/random/1500x1147)
+  &nbsp;
 
 ## Skincare Tools
 
