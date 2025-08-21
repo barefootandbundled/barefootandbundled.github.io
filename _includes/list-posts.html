@@ -1,6 +1,7 @@
 {% for post in posts %}
 <li class="blog-post">
   <div class="post-preview">
+
     {% if post.image %}
     <a href="{{ post.url }}">
       <img src="{{ post.image }}" alt="{{ post.title }}" class="post-thumbnail">
@@ -12,9 +13,13 @@
       <div class="post-details">
         <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
       </div>
-      <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+
+      <!-- Short preview: 25 words max -->
+      <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+
       <a href="{{ post.url }}" class="btn">Read More →</a>
     </div>
+
   </div>
 </li>
 {% endfor %}
