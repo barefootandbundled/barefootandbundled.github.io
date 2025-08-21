@@ -10,8 +10,8 @@ Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adul
 Jump to section:
 
 1. [Gentle Cleansers](#gentle-cleansers)
-2. [Serums & Treatments that put in the work](#serums)
-3. [Hydrating Moisturizers & Eye Creams](#moisturizers)
+2. [Toners & Serums](#toners-serums)
+3. [Hydrating Moisturizers & Eye Creams](#hydrating-moisturizers-eye-creams)
 4. [Skincare Tools](#skincare-tools)
 
 *This post contains affiliate links, which means I may earn a tiny commission at no extra cost to you if you decide to treat yourself. Thanks for supporting my cozy corner of the internet!*
@@ -28,12 +28,7 @@ No frills; Just give me a basic cleanser that is gentle enough for sensitive ski
 
 Centella is great for acne-prone skin, so SKIN1004’s Ampoule Foam has been my holy grail for years. Prequel is new to me, but I instantly fell in love after trying the travel size! Finally, makeup is no match for some micellar water and honestly, sometimes a girl just wants to quickly rinse her face and get to bed. The Garnier micellar water has been my go-to since high school. It’s the best to remove eye makeup!&nbsp;&nbsp;
 
-&nbsp;
-
-## Serums & Treatments that put in the work
-{: id="serums"}
-
-&nbsp;
+## Toners & Serums
 
 These are the reason my skin has cleared up so much:
 
@@ -45,12 +40,7 @@ These are the reason my skin has cleared up so much:
 
 The Byoma toner is viral for a reason! So affordable, moisturizing, and the easiest step to do after cleansing AM & PM. But if you struggle with acne, PLEASE give this Cocokind serum a try. Over 2 years of struggling with hormonal acne along my jawline; this was the only thing to help.&nbsp;
 
-&nbsp;
-
 ## Hydrating Moisturizers & Eye Creams
-{: id="moisturizers"}
-
-&nbsp;
 
 I’ve been fooled into thinking the expensive creams were worth the splurge. Take it from me - they’re not! Trust me when I tell you, good old-fashioned CeraVe is your best friend. She’s affordable and one bottle lasts forever. <br>Another moisturizing ritual I’ve come to love is the Cocokind Eye Cream. The metal applicator is a cooling wake-up for my puffy under eyes. Great for both AM & PM.
 
