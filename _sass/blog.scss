@@ -192,7 +192,7 @@
 }
 
 /* ===================== */
-/* NEW MOBILE + IMAGE FIXES */
+/* MOBILE + IMAGE FIXES */
 /* ===================== */
 
 /* Prevent horizontal scrolling */
@@ -208,10 +208,19 @@ html, body {
   display: block;
 }
 
+/* Desktop-specific image size */
+@media screen and (min-width: 1024px) {
+  .blog-post img,
+  .post-content img {
+    max-width: 600px; /* adjust as needed */
+    margin: 0 auto;   /* center images */
+  }
+}
+
 /* Center text container on mobile */
 .text-container {
   max-width: 100%;
-  padding: 0 1rem; /* gives spacing left & right */
+  padding: 0 1rem; /* spacing left & right */
   box-sizing: border-box;
 }
 
