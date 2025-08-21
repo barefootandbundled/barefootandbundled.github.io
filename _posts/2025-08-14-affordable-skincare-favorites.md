@@ -26,9 +26,14 @@ No frills; Just give me a basic cleanser that is gentle enough for sensitive ski
 * [Prequel Facial Gleanser Cleanser](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=13561668){: target="_blank" rel="noopener"}
 * [Garnier SkinActive Cleansing Micellar Water](https://amzn.to/3HoRg5s){: target="_blank" rel="noopener"}
 
-Centella is great for acne-prone skin, so SKIN1004’s Ampoule Foam has been my holy grail for years. Prequel is new to me, but I instantly fell in love after trying the travel size! Finally, makeup is no match for some micellar water and honestly, sometimes a girl just wants to quickly rinse her face and get to bed. The Garnier micellar water has been my go-to since high school. It’s the best to remove eye makeup!
+Centella is great for acne-prone skin, so SKIN1004’s Ampoule Foam has been my holy grail for years. Prequel is new to me, but I instantly fell in love after trying the travel size! Finally, makeup is no match for some micellar water and honestly, sometimes a girl just wants to quickly rinse her face and get to bed. The Garnier micellar water has been my go-to since high school. It’s the best to remove eye makeup!&nbsp;&nbsp;
 
-## Serums & Treatments that put in the work {#serums}
+&nbsp;
+
+## Serums & Treatments that put in the work
+{: id="serums"}
+
+&nbsp;
 
 These are the reason my skin has cleared up so much:
 
@@ -36,9 +41,16 @@ These are the reason my skin has cleared up so much:
 * [Cocokind Postbotic Acne Serum](https://amzn.to/4oQN7bo){: target="_blank" rel="noopener"}
 * [Anua Azelaic Acid Serum](https://amzn.to/45rQwWl){: target="_blank" rel="noopener"}
 
-The Byoma toner is viral for a reason! So affordable, moisturizing, and the easiest step to do after cleansing AM & PM. But if you struggle with acne, PLEASE give this Cocokind serum a try. Over 2 years of struggling with hormonal acne along my jawline; this was the only thing to help.
+&nbsp;![hydrating facial toner, azaleic acid serum, acne serum](/uploads/img-3956-1.jpeg "Affordable facial serums")
 
-## Hydrating Moisturizers & Eye Creams {#moisturizers}
+The Byoma toner is viral for a reason! So affordable, moisturizing, and the easiest step to do after cleansing AM & PM. But if you struggle with acne, PLEASE give this Cocokind serum a try. Over 2 years of struggling with hormonal acne along my jawline; this was the only thing to help.&nbsp;
+
+&nbsp;
+
+## Hydrating Moisturizers & Eye Creams
+{: id="moisturizers"}
+
+&nbsp;
 
 I’ve been fooled into thinking the expensive creams were worth the splurge. Take it from me - they’re not! Trust me when I tell you, good old-fashioned CeraVe is your best friend. She’s affordable and one bottle lasts forever. <br>Another moisturizing ritual I’ve come to love is the Cocokind Eye Cream. The metal applicator is a cooling wake-up for my puffy under eyes. Great for both AM & PM.
 
@@ -47,10 +59,14 @@ I’ve been fooled into thinking the expensive creams were worth the splurge. Ta
 
   &nbsp;
 
+  ![face moisturizer and eye cream](/uploads/img-3957.jpeg "CeraVe Moisturizer &amp; Cocokind Eye Cream")
+
 ## Skincare Tools
 
-If you've been curious about red light therapy and want to try it without spending $300+ for a panel, give this lamp a shot. It's the same brand as the expensive panels, in a lightweight bulb that can be used handheld or screwed into a desk lamp. I personally hold it up to my face each night after cleansing and it has become a little bedtime ritual. It comes with eye protection and a flexible cord with an on/off switch!
+If you’ve been curious about red light therapy and want to try it without spending $300+ for a panel, give this lamp a shot. It’s the same brand as the expensive panels, in a lightweight bulb that can be used handheld or screwed into a desk lamp. I personally hold it up to my face each night after cleansing and it has become a little bedtime ritual. It comes with eye protection and a flexible cord with an on/off switch!
+
+![red light bulb used for skincare](/uploads/img-3962.jpeg "Red Light Therapy Bulb")
 
 * [Red Light Therapy Bulb](https://amzn.to/4fJ7Byl){: target="_blank" rel="noopener"}
 
-Let me know what affordable skincare products you've tried and have added to your routine! I'd love to know if you've tried any of these from my list. Leave me a comment!
+Let me know what affordable skincare products you’ve tried and have added to your routine! I’d love to know if you’ve tried any of these from my list. Leave me a comment!
