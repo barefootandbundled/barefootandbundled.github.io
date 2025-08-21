@@ -9,9 +9,9 @@ Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adul
 
 Jump to section:
 
-1. [Gentle Cleansers](#Gentle-Cleansers)
-2. [Serums & Treatments](#serums-treatments-that-put-in-the-work)
-3. [Hydrating Moisturizers & Creams](#hydrating-moisturizers-eye-creams)
+1. [Gentle Cleansers](#gentle-cleansers)
+2. [Serums & Treatments](#serums-&amp;-treatments-that-put-in-the-work)
+3. [Hydrating Moisturizers & Creams](#hydrating-moisturizers-&amp;-eye-creams)
 4. [Skincare Tools](#skincare-tools)
 
 *This post contains affiliate links, which means I may earn a tiny commission at no extra cost to you if you decide to treat yourself. Thanks for supporting my cozy corner of the internet!*
