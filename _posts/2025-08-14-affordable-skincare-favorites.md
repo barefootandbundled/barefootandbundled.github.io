@@ -9,14 +9,14 @@ Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adul
 
 Jump to section:
 
-1. [Gentle Cleansers](#cleansers)
-2. [Serums & Treatments](#serums)
-3. [Hydrating Moisturizers & Creams](#moisturizers)
-4. [Skincare Tools](#tools)
+1. [Gentle Cleansers](#Gentle-Cleansers)
+2. [Serums & Treatments](#serums-treatments-that-put-in-the-work)
+3. [Hydrating Moisturizers & Creams](#hydrating-moisturizers-eye-creams)
+4. [Skincare Tools](#skincare-tools)
 
 *This post contains affiliate links, which means I may earn a tiny commission at no extra cost to you if you decide to treat yourself. Thanks for supporting my cozy corner of the internet!*
 
-## <a id="cleansers"></a>Gentle Cleansers
+## Gentle Cleansers
 
 No frills; Just give me a basic cleanser that is gentle enough for sensitive skin, removes my makeup and, *for the love of god*, doesn’t sting my eyes!
 
@@ -28,7 +28,7 @@ No frills; Just give me a basic cleanser that is gentle enough for sensitive ski
 
 Centella is great for acne-prone skin, so SKIN1004’s Ampoule Foam has been my holy grail for years. Prequel is new to me, but I instantly fell in love after trying the travel size! Finally, makeup is no match for some micellar water and honestly, sometimes a girl just wants to quickly rinse her face and get to bed. The Garnier micellar water has been my go-to since high school. It’s the best to remove eye makeup!
 
-## <a id="serums"></a>Serums & Treatments that put in the work
+## Serums & Treatments that put in the work
 
 These are the reason my skin has cleared up so much:
 
@@ -38,7 +38,9 @@ These are the reason my skin has cleared up so much:
 * [Cocokind Postbotic Acne Serum](https://amzn.to/4oQN7bo){: target="_blank" rel="noopener"}
 * [Anua Azelaic Acid Serum](https://amzn.to/45rQwWl){: target="_blank" rel="noopener"}
 
-## <a id="moisturizers"></a>Hydrating Moisturizers & Eye Creams
+The Byoma toner is viral for a reason! So affordable, moisturizing, and the easiest step to do after cleansing AM & PM. But if you struggle with acne, PLEASE give this Cocokind serum a try. Over 2 years of struggling with hormonal acne along my jawline; this was the only thing to help.
+
+## Hydrating Moisturizers & Eye Creams
 
 I’ve been fooled into thinking the expensive creams were worth the splurge. Take it from me - they’re not! Trust me when I tell you, good old-fashioned CeraVe is your best friend. She’s affordable and one bottle lasts forever. <br>Another moisturizing ritual I’ve come to love is the Cocokind Eye Cream. The metal applicator is a cooling wake-up for my puffy under eyes. Great for both AM & PM.
 
@@ -47,6 +49,8 @@ I’ve been fooled into thinking the expensive creams were worth the splurge. Ta
 
 ![Raspberries](https://source.unsplash.com/random/1500x1147)
 
-## <a id="tools"></a>Skincare Tools
+## Skincare Tools
 
-* [Red Light Therapy Lamp](https://amzn.to/4fJ7Byl){: target="_blank" rel="noopener"}
+If you've been curious about red light therapy and want to try it without spending $300+ for a panel, give this lamp a shot. It's the same brand as the expensive panels, in a lightweight bulb that can be used handheld or screwed into a desk lamp. I personally hold it up to my face each night after cleansing and it has become a little bedtime ritual. It comes with eye protection and a flexible cord with an on/off switch!
+
+* [Red Light Therapy Bulb](https://amzn.to/4fJ7Byl){: target="_blank" rel="noopener"}
