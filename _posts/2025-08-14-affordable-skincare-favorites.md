@@ -54,3 +54,5 @@ I’ve been fooled into thinking the expensive creams were worth the splurge. Ta
 If you've been curious about red light therapy and want to try it without spending $300+ for a panel, give this lamp a shot. It's the same brand as the expensive panels, in a lightweight bulb that can be used handheld or screwed into a desk lamp. I personally hold it up to my face each night after cleansing and it has become a little bedtime ritual. It comes with eye protection and a flexible cord with an on/off switch!
 
 * [Red Light Therapy Bulb](https://amzn.to/4fJ7Byl){: target="_blank" rel="noopener"}
+
+Let me know what affordable skincare products you've tried and have added to your routine! I'd love to know if you've tried any of these from my list. Leave me a comment!
