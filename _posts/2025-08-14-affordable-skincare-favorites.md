@@ -4,7 +4,7 @@ title: Affordable Skincare Favorites
 categories:
   - skincare
 permalink: /affordable-skincare-favorites/
-image: /uploads/img-3938-1.jpeg
+image: /uploads/Skincare/img-3938-1.jpeg
 ---
 Who says glowing skin has to cost a fortune? With the unfortunate pop-up of adult acne I’ve been dealing with lately (Why!?), I’ve been on the hunt for the best and cheapest skincare solutions. Thankfully, since glass skin is so in, there are now tons of affordable options on the market available for anyone to grab at stores like Target. Here, I’m sharing my personal favorite products that have been keeping my skin smooth, hydrated, and happy without breaking the bank.
 
@@ -21,7 +21,7 @@ Jump to section:
 
 No frills; Just give me a basic cleanser that is gentle enough for sensitive skin, removes my makeup and, *for the love of god*, doesn’t sting my eyes!
 
-![Facial Cleansers, Micellar Water](/uploads/img-3938-1.jpeg "Gentle Facial Cleansers")
+![Facial Cleansers, Micellar Water](/uploads/Skincare/img-3938-1.jpeg "Gentle Facial Cleansers")
 
 * SKIN1004 Madagascar Centella [Light Cleansing Oil](https://amzlink.to/az0IHsrx6IV5D){: target="_blank" rel="noopener"} and [Ampoule Foam](https://amzlink.to/az0ZQ5LrPFFdN){: target="_blank" rel="noopener"}
 * [Prequel Facial Gleanser Cleanser](https://benable.com/barefootandbundled/soft-skin-without-the-splurge/details?detail_id=13561668){: target="_blank" rel="noopener"}
@@ -37,7 +37,7 @@ These are the reason my skin has cleared up so much:
 * [Cocokind Postbotic Acne Serum](https://amzlink.to/az0wfGOLzsttP){: target="_blank" rel="noopener"}
 * [Anua Azelaic Acid Serum](https://amzlink.to/az0Hly6HUPU3x){: target="_blank" rel="noopener"}
 
-&nbsp;![hydrating facial toner, azaleic acid serum, acne serum](/uploads/img-3956-1.jpeg "Affordable facial serums")
+&nbsp;![hydrating facial toner, azaleic acid serum, acne serum](/uploads/Skincare/img-3956-1.jpeg "Affordable facial serums")
 
 The Byoma toner is viral for a reason! So affordable, moisturizing, and the easiest step to do after cleansing AM & PM. But if you struggle with acne, PLEASE give this Cocokind serum a try. Over 2 years of struggling with hormonal acne along my jawline; this was the only thing to help.&nbsp;
 
@@ -50,13 +50,13 @@ I’ve been fooled into thinking the expensive creams were worth the splurge. Ta
 
   &nbsp;
 
-  ![face moisturizer and eye cream](/uploads/img-3957.jpeg "CeraVe Moisturizer &amp; Cocokind Eye Cream")
+  ![face moisturizer and eye cream](/uploads/Skincare/img-3957.jpeg "CeraVe Moisturizer &amp; Cocokind Eye Cream")
 
 ## Skincare Tools
 
 If you’ve been curious about red light therapy and want to try it without spending $300+ for a panel, give this lamp a shot. It’s the same brand as the expensive panels, in a lightweight bulb that can be used handheld or screwed into a desk lamp. I personally hold it up to my face each night after cleansing and it has become a little bedtime ritual. It comes with eye protection and a flexible cord with an on/off switch!
 
-![red light bulb used for skincare](/uploads/img-3962.jpeg "Red Light Therapy Bulb")
+![red light bulb used for skincare](/uploads/Skincare/img-3962.jpeg "Red Light Therapy Bulb")
 
 * [Red Light Therapy Bulb](https://amzlink.to/az002JlOTNmuf){: target="_blank" rel="noopener"}
 
